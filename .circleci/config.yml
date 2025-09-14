@@ -26,7 +26,7 @@ jobs:
 
   continuous-delivery:
     machine: true
-    resource_class: bappy/haterunner
+    resource_class: mahfuj/test
     steps:
       - aws-cli/setup
 
