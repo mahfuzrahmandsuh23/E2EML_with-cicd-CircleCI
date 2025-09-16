@@ -43,11 +43,10 @@ sudo nano /etc/opt/circleci/launch-agent-config.yaml
 
 # Add API in the file and change permissions
 api:
-  auth_token: ca001c2338a80ec4abbad79e90cfec47bc6fd114f21bc9a4736754b900ebfa13c0fd926c43dbb07e
+  auth_token: 919748ccc5c2a1785aaddf1d288230175bad95320a1819c828f035908139b0185276a86f32a129d5
 
 runner:
   name: self-hosted
-  resource_class: mahfuj/test
   working_directory: /var/opt/circleci/workdir
   cleanup_working_directory: true
 
